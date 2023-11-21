@@ -1,0 +1,118 @@
+*{
+     padding: 0px;
+     margin: 0px; 
+     box-sizing: border-box;
+}
+.background{
+    padding: 2vw; 
+    background-color: brown;
+    clip-path: polygon(0% 0%, 100% 0, 100% 86%, 85% 100%, 0% 100%);
+    padding-bottom: 1vw;
+
+}
+
+.top-heading{
+    font-size: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);}
+    .top-heading2{
+        font-size: 3vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    .middle-text{
+        font-size: 1.2vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+    }
+
+header{
+    background-color: rgb(1, 1, 1);
+
+
+}
+.heading-row1{
+    display: flex;
+     padding-top: 40px;
+     margin-left: 10px;
+
+
+}
+.clubs{
+    margin-left: 2vw;
+    font-size: 3vw;
+    padding-bottom: 1vw;
+}
+
+.section-2{
+   background-color: white;
+   padding: 2vw; 
+} 
+.bullet-icon{
+    width:2.6vw;
+    height: 2.6vw; 
+    margin-top: 0.4vw;
+   
+   
+}
+h1{
+     font-size: 3vw;
+    padding-left: 20px; 
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row-one{
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.row-text{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.row-text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 1.9vw;
+}
+.bvb-image{
+    padding-top: 10px;
+    width: 60%;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.footer-sec{
+    background-color: brown;
+    clip-path: polygon(0% 0%, 100% 0, 100% 76%, 95% 100%, 0% 100%);
+
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+     padding: 2vw; 
+}
+
+
+/*  */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
